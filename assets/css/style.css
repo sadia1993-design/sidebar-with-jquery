@@ -1,0 +1,123 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul li a {
+    display: block;
+}
+
+a:hover {
+    text-decoration: none
+}
+
+a:focus {
+    outline: 0 solid;
+    text-decoration: none
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input:focus,
+button:focus,
+textarea:focus,
+a:focus {
+    outline: none
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+p:last-child {
+    margin-bottom: 0
+}
+
+aside.sidebar {}
+
+aside.sidebar ul {
+    display: none;
+    width: 200px;
+    height: 100%;
+    background: #333;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    transition: 1s all at-ease;
+    -webkit-transition: 1s all at-ease;
+    -moz-transition: 1s all at-ease;
+    -ms-transition: 1s all at-ease;
+    -o-transition: 1s all at-ease;
+}
+
+.toggle-button {
+    position: absolute;
+    top: 18px;
+    right: 23px;
+    cursor: pointer;
+    z-index: 2000;
+}
+
+aside.sidebar ul li:first-child a {
+    border-top: 0;
+    margin-top: 66px;
+}
+
+.toggle-button a i {
+    color: darkgrey;
+    font-size: 24px;
+}
+
+aside.sidebar ul li a {
+    color: #eee;
+    text-align: center;
+    padding: 12px 0;
+    border-top: 1px solid #424242;
+    border-bottom: 1px solid #242424;
+    font-weight: bold;
+    transition: .4s all at-ease;
+    -webkit-transition: .4s all at-ease;
+    -moz-transition: .4s all at-ease;
+    -ms-transition: .4s all at-ease;
+    -o-transition: .4s all at-ease;
+}
+
+aside.sidebar ul li a:hover {
+    background: #242424;
+    color: blue;
+}
+
+aside.sidebar ul li:last-child a {
+    border-bottom: 0;
+}
